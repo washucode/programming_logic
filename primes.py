@@ -1,4 +1,3 @@
-
 def all_prime(n):
 	for s in range (0,n+1):
 		gen = True
@@ -16,7 +15,8 @@ def all_prime(n):
 				gen = True
 		if gen ==True:
 		  print s
-all_prime(309)
+
+
 
 
 		
