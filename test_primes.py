@@ -11,5 +11,8 @@ class test_case_primes(unittest.TestCase):
 	def test_zero_not_prime(self):
 		self.assertFalse(all_prime(0))
 
+	def test_negativeone_notprime(self):
+		self.assertFalse(all_prime(-1))
+
 if __name__== '__main__':
 	unittest.main()
