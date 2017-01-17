@@ -13,6 +13,9 @@ def all_prime(n):
 				return True
 		if True:
 			print x
+
+
+
 '''This is a trial'''
 def function : n
 loop within a loop : n^2
