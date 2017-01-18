@@ -7,9 +7,9 @@ class Car(object):
 		self.model =model
 		self.name = name
 	
-	if self.name = 'Koenigsegg':
+	if self.name == 'Koenigsegg':
 		self.num_of_doors = 2
-	elif self.name ='Porshe':
+	elif self.name =='Porshe':
 	  self.num_of_doors = 2
 	else:
 	  self.num_of_doors =4
@@ -26,10 +26,11 @@ class Car(object):
 	    return False
 	     
 	def drive_car(self,moving_speed):
-	  if moving_speed == 3:
-      self.speed = 1000
+		if moving_speed == 3:
+			self.speed = 1000
     elif moving_speed == 7:
       self.speed = 77
+  return self
 
     
 
