@@ -1,16 +1,21 @@
-def fizz_buzz(sum):
+
+#takes a num return FizzBuzz if divisble by both 3 and 5
+#return Buzz if number if divisible by 5
+#return Fizz if divisble by 3
+
+def fizz_buzz(num):
   
   
-  if sum%3==0 and sum%5==0:
+  if num%3==0 and num%5==0:
     return 'FizzBuzz'  
   
-  elif sum%5==0:
+  elif num%5==0:
     return 'Buzz'
   
-  elif sum%3 ==0 :
+  elif num%3 ==0 :
     return 'Fizz'
   
   
   else:
-    return sum
+    return num
   
