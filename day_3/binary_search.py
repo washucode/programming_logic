@@ -1,10 +1,7 @@
 class BinarySearch(List):
-	def __init__(self):
-		super(BinarySearch).__init__(self)
-	
-	def __init__(self,list_len,step):
-	  self.list_len = list_len
-		list.__init__(self)
+	def __init__(self,a,b):
+		super(BinarySearch,self).__init__(range(0, (a*b)+1, b)[1:])
+		self.length = a
 	def search (self,value):
 		max_n=0
 		max_n = length
@@ -23,7 +20,7 @@ class BinarySearch(List):
 			else: 
 				max_n = mid -1
 		return my_dict ={"count": count,"index":index} 
-		
+
 
 
 
