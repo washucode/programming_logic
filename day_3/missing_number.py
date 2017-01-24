@@ -8,12 +8,11 @@ def missing_number(a,b):
 	if len(a)==len (b):
 		return list(0)
 	else:
-		for item in a:
-			for char in b:
-				if item not in b:
-					return list(set(a)-set(b))
-				elif char not in a:
-					return list(set(b)-set(a))
-				else:
-					pass
-
+		maxlist = a
+		if len (b) > len(a):
+			maxlist = b
+		else:
+			minlist = a
+		for num in maxlist:
+			if num not in minlist:
+				return num
