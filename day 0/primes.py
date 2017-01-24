@@ -1,6 +1,5 @@
 #Takes a number,loops through the range (0 ,number+1)
 #Returns an array of prime numbers including 2
-
 def all_prime(n):
 	for s in range (0,n+1):
 		gen = True
@@ -15,7 +14,7 @@ def all_prime(n):
 			elif s==2:
 				gen = True 
 			elif s in range(0,2):
-			  gen = Fals
+			  gen = False
 			else:
 				gen = True
 		if gen ==True:
